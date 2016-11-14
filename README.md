@@ -114,3 +114,10 @@ mv * /home/USER/.icons
 ```
 
 Now open Tweak Tool -> Appearance -> Icons -> Numix-Circle
+
+
+10 - Fix the keyboard for Thinkpad T420
+
+```
+setxkbmap -model thinkpad60 -layout br
+```
