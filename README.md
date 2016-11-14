@@ -1,6 +1,8 @@
 
 ##I use most Google Apps like Drive, Docs, Gmail...
 
+- [Install epel and nux repo?](###Install-epel-and-nux-repositories-)
+
 
 ###1 - Install epel and nux repositories
 
