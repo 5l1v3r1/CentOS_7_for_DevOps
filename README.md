@@ -45,7 +45,7 @@ sudo yum -y install skype gvim vlc vlc-core git zsh stow filezilla transmission 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-###5 - Remove packages (I remove packages that I dont use)
+###5 - Remove packages (I remove packages that I don't use)
 
 ```
 sudo yum -y remove firefox evolution rhythmbox totem gedit ekiga empathy libreoffice-core
