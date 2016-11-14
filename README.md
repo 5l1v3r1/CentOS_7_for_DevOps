@@ -2,12 +2,12 @@
 ##I use most Google Apps like Drive, Docs, Gmail...
 
 
-1 - Install epel and nux repositories
+###1 - Install epel and nux repositories
 
 ```
 sudo yum -y install epel-release && sudo rpm -Uvh http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm
 ```
-1.1 Update the whole system
+###1.1 Update the whole system
 
 ```
 sudo yum -y update
