@@ -3,7 +3,7 @@
 
 
 # MENU
-- [Install epel and nux repo?](###Install-epel-and-nux-repositories-)
+- [Install epel and nux repo?](###1 - Install epel and nux repositories)
 
 
 ###1 - Install epel and nux repositories
