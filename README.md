@@ -1,5 +1,5 @@
 
-## Tools that I use for my DevOps works.
+## CentOS 7 Desktop for DevOps Engineer 
 
 ### 1 - Install epel and nux repositories
 
