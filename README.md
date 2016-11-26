@@ -1,7 +1,7 @@
 
 ## CentOS 7 Desktop for DevOps Engineer 
 
-1. [Epel](#11 - Install vim from sources)
+1. [Epel](#11---install-vim-from-sources)
 
 
 ### 1 - Install epel and nux repositories
