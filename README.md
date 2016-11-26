@@ -1,7 +1,8 @@
 
 ## CentOS 7 Desktop for DevOps Engineer 
 
-1. [Install Repositories](#1---install-vim-from-sources)
+1. [Install Repositories](#1---install-epel-and-nux-repositories)
+2. [Update the whole system](#1.1---update-the-whole-system)
 
 
 ### 1 - Install epel and nux repositories
