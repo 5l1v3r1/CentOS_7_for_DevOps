@@ -120,3 +120,28 @@ Now open Tweak Tool -> Appearance -> Icons -> Numix-Circle
 ```
 setxkbmap -model thinkpad60 -layout br
 ```
+
+### 11 - Install vim from sources
+
+I use the different path for programs that I compile local in my machine.
+
+/home/USER/Programs/PROGRAM_NAME/VERSION
+
+and later I export the PATH.
+
+```
+git clone https://github.com/vim/vim.git
+cd vim/src
+
+./configure --prefix=/home/ricardson/Programs/vim/8.0 \
+            --with-features=huge \
+            --enable-multibyte \
+            --enable-rubyinterp=yes \
+            --enable-pythoninterp=yes \
+            --with-python-config-dir=/usr/lib64/python2.7/config \
+            --enable-perlinterp=yes \
+            --enable-luainterp=yes 
+
+make
+make install
+```
