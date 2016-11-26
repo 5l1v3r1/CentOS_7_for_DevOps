@@ -1,6 +1,9 @@
 
 ## CentOS 7 Desktop for DevOps Engineer 
 
+1. [Epel](#1 - Install epel and nux repositories)
+
+
 ### 1 - Install epel and nux repositories
 
 ```
