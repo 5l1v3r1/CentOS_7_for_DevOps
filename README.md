@@ -77,7 +77,14 @@ sudo systemctl enable docker
 sudo systemctl start docker
 ```
 
-### 7 - Install Virtualbox
+### 7 - Installing docker-compose
+
+```
+sudo yum install -y python-pip
+pip install docker-compose
+```
+
+### 8 - Install Virtualbox
 
 ```
 sudo curl -o /etc/yum.repos.d/virtualbox.repo http://download.virtualbox.org/virtualbox/rpm/rhel/virtualbox.repo
@@ -100,13 +107,13 @@ Add your user into vboxusers
 sudo usermod -a -G vboxusers username
 ```
 
-### 8 - Installing Vagrant.
+### 9 - Installing Vagrant.
 
 ```
 sudo rpm -ivh https://releases.hashicorp.com/vagrant/1.8.7/vagrant_1.8.7_x86_64.rpm
 ```
 
-### 9 - Change the icons to numix-icon-theme-circle
+### 10 - Change the icons to numix-icon-theme-circle
 
 ```
 mkdir /home/USER/.icons
@@ -119,13 +126,13 @@ mv * /home/USER/.icons
 Now open Tweak Tool -> Appearance -> Icons -> Numix-Circle
 
 
-### 10 - Fix the keyboard for Thinkpad T420
+### 11 - Fix the keyboard for Thinkpad T420
 
 ```
 setxkbmap -model thinkpad60 -layout br
 ```
 
-### 11 - Install vim from sources
+### 12 - Install vim from sources
 
 I use the different path for programs that I compile local in my machine.
 
