@@ -149,3 +149,25 @@ cd vim/src
 make
 make install
 ```
+
+### 12 - Install sudo from sources
+
+I want remove the vi/vim packages that comes with CentOS 7 but I the dependencias of vi is sudo package, so I will compile from sources
+sudo.
+
+
+```
+wget https://www.sudo.ws/dist/sudo-1.8.19p1.tar.gz
+tar czf sudo-1.8.19p1.tar.gz
+cd sudo-1.8.19p1
+./configure --prefix=/home/ricardson/Programs/sudo/1.8.19p1 --with-editor=/home/ricardson/Programs/vim/8.0/bin/vim
+make
+sudo make instal
+```
+
+After that we can remove the vi/vim packages
+
+```
+sudo yum remove vi-*
+sudo yum remove vim-*
+```
