@@ -176,9 +176,9 @@ Need to add the path indo .zshrc like below:
 
 ```
 $HOME/Programs/sudo/1.8.19p1/bin:$HOME/Programs/sudo/1.8.19p1/sbin
-
 ```
-You can also check my [.zshrc](https://github.com/ricardson/dotfiles/blob/master/zshrc/.zshrc) file.
+
+**You can also check my [.zshrc](https://github.com/ricardson/dotfiles/blob/master/zshrc/.zshrc) file.**
 
 
 After that we can remove the vi/vim packages
