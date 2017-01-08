@@ -144,7 +144,7 @@ and later I export the PATH.
 git clone https://github.com/vim/vim.git
 cd vim/src
 
-./configure --prefix=/home/ricardson/Programs/vim/8.0 \
+./configure --prefix=$HOME/Programs/vim/8.0 \
             --with-features=huge \
             --enable-multibyte \
             --enable-rubyinterp=yes \
@@ -167,7 +167,7 @@ sudo.
 wget https://www.sudo.ws/dist/sudo-1.8.19p1.tar.gz
 tar czf sudo-1.8.19p1.tar.gz
 cd sudo-1.8.19p1
-./configure --prefix=/home/ricardson/Programs/sudo/1.8.19p1 --with-editor=/home/ricardson/Programs/vim/8.0/bin/vim
+./configure --prefix=$HOME/Programs/sudo/1.8.19p1 --with-editor=$HOME/Programs/vim/8.0/bin/vim
 make
 sudo make instal
 ```
