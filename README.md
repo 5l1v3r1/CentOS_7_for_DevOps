@@ -136,7 +136,7 @@ setxkbmap -model thinkpad60 -layout br
 
 I use the different path for programs that I compile local in my machine.
 
-/home/USER/Programs/PROGRAM_NAME/VERSION
+**/home/USER/Programs/PROGRAM_NAME/VERSION**
 
 and later I export the PATH.
 
@@ -171,6 +171,15 @@ cd sudo-1.8.19p1
 make
 sudo make instal
 ```
+
+Need to add the path indo .zshrc like below:
+
+```
+$HOME/Programs/sudo/1.8.19p1/bin:$HOME/Programs/sudo/1.8.19p1/sbin
+
+```
+You can also check my [.zshrc](https://github.com/ricardson/dotfiles/blob/master/zshrc/.zshrc) file.
+
 
 After that we can remove the vi/vim packages
 
