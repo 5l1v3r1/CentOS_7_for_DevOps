@@ -180,6 +180,13 @@ $HOME/Programs/sudo/1.8.19p1/bin:$HOME/Programs/sudo/1.8.19p1/sbin
 
 **You can also check my [.zshrc](https://github.com/ricardson/dotfiles/blob/master/zshrc/.zshrc) file.**
 
+We need change the **/etc/sudoers** the parameter **secure_path** and add the path of vim.
+
+```
+/home/ricardson/Programs/vim/8.0/bin
+```
+
+
 
 Now we can remove the vi/vim packages
 
