@@ -159,7 +159,7 @@ make install
 
 ### 12 - Install sudo from sources
 
-I want remove the vi/vim packages that comes with CentOS 7 but I the dependencias of vi is sudo package, so I will compile from sources
+I want remove the vi/vim packages that comes with CentOS 7 but I the dependencies of vi is sudo package, so I will compile from sources
 sudo.
 
 
