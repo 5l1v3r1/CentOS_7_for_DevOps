@@ -132,7 +132,8 @@ Now open Tweak Tool -> Appearance -> Icons -> Numix-Circle
 setxkbmap -model thinkpad60 -layout br
 ```
 
-### 12 - Install vim from sources
+### 12 - Install latest versoin of git
+
 
 I use the different path for programs that I compile local in my machine.
 
@@ -141,56 +142,21 @@ I use the different path for programs that I compile local in my machine.
 and later I export the PATH.
 
 ```
-git clone https://github.com/vim/vim.git
-cd vim/src
+wget https://github.com/git/git/archive/v2.11.1.zip
+cd git-2.11.1
 
-./configure --prefix=$HOME/Programs/vim/8.0 \
-            --with-features=huge \
-            --enable-multibyte \
-            --enable-rubyinterp=yes \
-            --enable-pythoninterp=yes \
-            --with-python-config-dir=/usr/lib64/python2.7/config \
-            --enable-perlinterp=yes \
-            --enable-luainterp=yes 
+make configure
+./configure --prefix=/home/ricardson/Programs/git/2.11.1/ --with-curl
 
-make
 make install
-```
-
-### 12 - Install sudo from sources
-
-I want remove the vi/vim packages that comes with CentOS 7 but I the dependencies of vi is sudo package, so I will compile from sources
-sudo.
-
-
-```
-wget https://www.sudo.ws/dist/sudo-1.8.19p1.tar.gz
-tar czf sudo-1.8.19p1.tar.gz
-cd sudo-1.8.19p1
-./configure --prefix=$HOME/Programs/sudo/1.8.19p1 --with-editor=$HOME/Programs/vim/8.0/bin/vim
-make
-sudo make instal
 ```
 
 Need to add the path indo .zshrc like below:
 
 ```
-$HOME/Programs/sudo/1.8.19p1/bin:$HOME/Programs/sudo/1.8.19p1/sbin
+$HOME/Programs/git/2.11.1/bin
 ```
 
 **You can also check my [.zshrc](https://github.com/ricardson/dotfiles/blob/master/zshrc/.zshrc) file.**
 
-We need change the in **/etc/sudoers** the parameter **secure_path** to add the vim path's.
 
-```
-/home/ricardson/Programs/vim/8.0/bin
-```
-
-
-
-Now we can remove the vi/vim packages
-
-```
-sudo yum remove vi-*
-sudo yum remove vim-*
-```
