@@ -1,5 +1,5 @@
 
-## CentOS 7 Desktop for DevOps Engineer 
+## CentOS 7 Desktop for DevOps Engineer
 
 1. [Install Repositories](#1---install-epel-and-nux-repositories)
 2. [Install Google Chrome](#2---install-google-chrome)
@@ -17,7 +17,7 @@ sudo yum -y update
 ```
 
 ### 2 - Install Google Chrome
- 
+
  Create the repo file in /etc/yum.repos.d/google-chrome.repo
 
 ```
@@ -29,7 +29,7 @@ enabled=1
 gpgcheck=1
 gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 EOF
-``` 
+```
 
 Installing...
 
@@ -110,7 +110,7 @@ sudo usermod -a -G vboxusers username
 ### 9 - Installing Vagrant.
 
 ```
-sudo rpm -ivh https://releases.hashicorp.com/vagrant/1.8.7/vagrant_1.8.7_x86_64.rpm
+sudo rpm -ivh https://releases.hashicorp.com/vagrant/1.9.2/vagrant_1.9.2_x86_64.rpm
 ```
 
 ### 10 - Change the icons to numix-icon-theme-circle
