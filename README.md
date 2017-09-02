@@ -61,14 +61,10 @@ sudo yum -y remove firefox evolution rhythmbox totem gedit ekiga empathy libreof
 sudo yum-config-manager \
      --add-repo \
      https://download.docker.com/linux/centos/docker-ce.repo
-
 ```
 
 ```
 sudo yum install docker-ce
-```
-
-```
 sudo systemctl enable docker
 sudo systemctl start docker
 ```
