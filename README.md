@@ -63,6 +63,8 @@ sudo yum-config-manager \
      https://download.docker.com/linux/centos/docker-ce.repo
 
 ```
+
+```
 sudo yum install docker-ce
 ```
 
